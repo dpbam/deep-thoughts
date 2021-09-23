@@ -2,9 +2,8 @@ import React from 'react';
 import {
   ApolloProvider,
   ApolloClient,
-  inMemoryCache,
-  createHttpLink,
   InMemoryCache,
+  createHttpLink,
 } from '@apollo/client';
 
 import Header from './components/Header';
