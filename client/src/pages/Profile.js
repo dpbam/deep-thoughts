@@ -33,13 +33,13 @@ const Profile = () => {
             thoughts={user.thoughts}
             title={`${user.username}'s thoughts---`}
           />
-          <div className='col-12 mb-3 col-lg-3'>
-            <FriendList
-              username={user.username}
-              friendCount={user.friendCount}
-              friends={user.friends}
-            />
-          </div>
+        </div>
+        <div className='col-12 mb-3 col-lg-3'>
+          <FriendList
+            username={user.username}
+            friendCount={user.friendCount}
+            friends={user.friends}
+          />
         </div>
       </div>
     </div>
